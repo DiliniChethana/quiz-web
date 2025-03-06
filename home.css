@@ -10,7 +10,7 @@
     color: black;
 
 }
-h1{
+h1,h2{
     font-size: 6rem;
     font-weight: 500;
     margin-bottom: 5rem;
@@ -127,4 +127,34 @@ h1{
     max-width: 50rem;
     margin: 0 auto;
 
+}
+.choice-container{
+    display: flex;
+    margin:2rem;
+    width: 30%;
+    
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(15, 15, 15);
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin-right: 1.5rem;
+    margin-left: 50rem;
+    padding-right: 3rem
+
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4 rem 1.4 rem 0 rgb(83, 83, 238);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(3, 3, 74);
+    color: aliceblue;
+
+}
+.choice-text{
+    padding: 1.5rem;
 }
